@@ -1,0 +1,8 @@
+{
+  "name": "workspace",
+  "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@storybook/react": "^6.3.4"
+  }
+}

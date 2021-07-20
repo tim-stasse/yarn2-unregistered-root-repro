@@ -1,0 +1,16 @@
+{
+  "name": "yarn2-unregistered-root-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tim Stasse <tim.stasse@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@sources",
+  "workspaces": [
+    "*/*"
+  ],
+  "resolutions": {
+    "@emotion/core@^10.1.1": "npm:@emotion/react@^11.1.5",
+    "@emotion/styled@^10.0.27": "npm:@emotion/styled@^11.1.5",
+    "emotion-theming@^10.0.27": "npm:@emotion/react@^11.1.5"
+  }
+}
